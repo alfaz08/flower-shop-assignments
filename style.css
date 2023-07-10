@@ -46,3 +46,64 @@ background: #E55473;
 }
 
 /*Main part css*/
+/*Featured*/
+.featured-container{
+  /*background-color: red;*/
+
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+.featured-title{
+  align-items: center;
+  margin-top: 60px;
+}
+.featued-image-container{
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+.para{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.featured-img-one{
+   background-color:rgba(179, 117, 179, 0.575);
+   padding-top: 65px;
+   padding-left: 45px;
+   padding-right: 45px;
+   width: 200px;
+   
+   align-items: center;
+   border-top-left-radius: 200px;
+   border-top-right-radius: 200px;
+}
+.featured-img-two{
+  background-color:rgba(122, 173, 221, 0.575);
+   padding-top: 65px;
+   align-items: center;
+   padding-bottom: 80px;
+   padding-left: 45px;
+   padding-right: 45px;
+   width: 200px;
+   border-top-left-radius: 200px;
+   border-top-right-radius: 200px;
+}
+.featured-img-three{
+  background-color:rgba(147, 150, 103, 0.575);
+   padding-top: 50px;
+   padding-left: 45px;
+   padding-right: 45px;
+   width: 200px;
+   border-top-left-radius: 200px;
+   border-top-right-radius: 200px;
+}
+.pink-flower{
+    line-height: 20px;
+   color: black;
+   padding: 20%;
+}
