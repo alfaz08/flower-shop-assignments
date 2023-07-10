@@ -2,3 +2,47 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+/*banner part css*/
+h1{
+  font-size: 55px;
+}
+.banner-container{
+  background: rgba(187, 8, 172, 0.123);
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   gap: 70px;
+}
+.banner-des{
+  max-width: 500px;
+  /*background-color: blue;*/
+}
+.banner-des-para{
+  padding-top: 10px;
+  text-align: justify;
+  line-height: 23px;
+}
+.btn-primary{
+  border-radius: 5px;
+  padding: 15px ;
+  text-align: center;
+  font-size: 15px;
+  border: 0;
+  width: 120px;
+  margin-top: 20px;
+  border-radius: 8px;
+background: #E55473;
+}
+.banner-img{
+  
+  }
+.banner-img-real{
+  width: 500px;
+   padding-top: 30px;
+  height: 550px;
+}
+
+/*Main part css*/
