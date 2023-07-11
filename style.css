@@ -15,7 +15,6 @@ h1{
    align-items: center;
    justify-content:center;
    gap: 75px;
-  
 }
 .banner-des{
   max-width: 500px;
@@ -121,4 +120,37 @@ background: #E55473;
   padding: 10px;
 
   text-align: center;
+}
+
+/*Hot Deal*/
+
+.deal-container{
+  background: rgba(167, 123, 163, 0.178);
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   gap: 75px;
+   height: 500px;
+}
+.color{
+  color:#E55473;
+}
+.deal-des{
+  
+  text-align: center;
+  
+}
+.deal-des-para{
+  padding-top: 10px;
+  text-align: center;
+  line-height: 23px;
+}
+#no-background
+{
+  background: none;
+}
+.deal-img-real{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(19, 19, 36);
 }
