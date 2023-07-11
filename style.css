@@ -68,9 +68,9 @@ background: #E55473;
 }
 .featued-image-container{
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  width: 70%;
+  /*justify-content: space-around;*/
+  gap: 30px;
+  width: 50%;
   margin: auto;
   align-items: center;
   
@@ -131,6 +131,7 @@ background: #E55473;
    justify-content:center;
    gap: 75px;
    height: 500px;
+   margin-top: 20px;
 }
 .color{
   color:#E55473;
@@ -153,4 +154,19 @@ background: #E55473;
   height: 350px;
   width: 300px;
   background-color: rgb(19, 19, 36);
+}
+
+/*Instagram Part*/
+
+.insta-img-container{
+  display: flex;
+  justify-content: space-around;
+  
+  width: 65%;
+  margin: auto;
+  
+}
+.insta-img{
+  width: 300px;
+  
 }
