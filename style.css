@@ -14,16 +14,19 @@ h1{
    display: flex;
    align-items: center;
    justify-content:center;
-   gap: 70px;
+   gap: 75px;
+  
 }
 .banner-des{
   max-width: 500px;
   /*background-color: blue;*/
+  
 }
 .banner-des-para{
   padding-top: 10px;
   text-align: justify;
   line-height: 23px;
+  
 }
 .btn-primary{
   border-radius: 5px;
@@ -43,6 +46,8 @@ background: #E55473;
   width: 500px;
    padding-top: 30px;
   height: 550px;
+  padding-left: 50px;
+
 }
 
 /*Main part css*/
@@ -57,15 +62,20 @@ background: #E55473;
   text-align: center;
 }
 .featured-title{
+  
   align-items: center;
   margin-top: 60px;
+  text-align: center;
 }
 .featued-image-container{
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 10px;
   width: 70%;
   margin: auto;
   align-items: center;
+  
+  padding: 30px;
 }
 .para{
   padding-top: 15px;
@@ -106,4 +116,9 @@ background: #E55473;
     line-height: 20px;
    color: black;
    padding: 20%;
+}
+.caption{
+  padding: 10px;
+
+  text-align: center;
 }
