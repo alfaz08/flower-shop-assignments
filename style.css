@@ -37,6 +37,7 @@ h1{
   margin-top: 20px;
   border-radius: 8px;
 background: #E55473;
+ 
 }
 .banner-img{
   
@@ -68,12 +69,12 @@ background: #E55473;
 }
 .featued-image-container{
   display: flex;
-  /*justify-content: space-around;*/
-  gap: 30px;
+  justify-content: space-between;
+  gap: 30 px;
   width: 50%;
   margin: auto;
   align-items: center;
-  
+  background-color: blue;
   padding: 30px;
 }
 .para{
@@ -165,8 +166,37 @@ background: #E55473;
   width: 65%;
   margin: auto;
   
+  
 }
 .insta-img{
   width: 300px;
   
 }
+.latest-deal{
+  height: 40vh;
+  background-image: url("./Flower Asset/Rectangle 9.png");
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65%;
+  margin: auto;
+ 
+}
+.latest-deal{
+  text-align: center;
+ margin-top: 50px;
+}
+.deal-para{
+   padding-top: 60px;
+   text-align: center;
+   line-height: 60px;
+}
+.search-bar-real{
+  width: 700px;
+  height: 25px;
+    padding: 10px;
+   border-radius: 3px;
+   border: none;
+  }
+  
+
